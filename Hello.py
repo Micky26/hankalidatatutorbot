@@ -44,7 +44,12 @@ def run():
           Dataset](https://github.com/streamlit/demo-self-driving)
         - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
     """
+        
     )
+
+    user_input =  st.text_input("Play with me:")
+    
+    st.write ("You entered:", user_input)
 
 
 if __name__ == "__main__":
